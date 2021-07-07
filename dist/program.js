@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const startUp_1 = require("./startUp");
-let port = process.env.PORT || '3050';
+let port = process.env.PORT || '3000';
+console.log(port);
 startUp_1.default.app.listen(port, function () {
-    console.log(`servidor executando na porta ${port}`);
+    console.log(`servidor executando na porta!!!!!! ${port}`);
 });
